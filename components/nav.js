@@ -2,9 +2,9 @@ import React from 'react'
 import requests from '../utils/requests'
 import {useRouter} from 'next/router'
 
-function nav() {
+function Nav() {
 
-  const router = useRouter();
+  const router = useRouter(); 
   return (
     
     <nav className='relative'>
@@ -23,4 +23,4 @@ function nav() {
   )
 }
 
-export default nav
+export default Nav
