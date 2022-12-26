@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { HomeIcon, CheckBadgeIcon, UserIcon, LighteningBoltIcon, TrendingIcon, DocumentMagnifyingGlassIcon, ArchiveBoxIcon, LightBulbIcon, ArchiveBoxArrowDownIcon, CollectionIcon, SearchIcon } from '@heroicons/react/20/solid'
-import HeaderItem from '../components/HeaderItem'
+import HeaderItem from './HeaderItem'
 
 function header() {
     return (

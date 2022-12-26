@@ -2,7 +2,7 @@ import React from 'react'
 import Thumbnail from '../components/thumbnail'
 import FlipMove from "react-flip-move"
 
-import Nav from '../components/nav'
+import Nav from './Nav'
 
 function Results({requests}) {
 
