@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { HomeIcon, CheckBadgeIcon, UserIcon, LighteningBoltIcon, TrendingIcon, DocumentMagnifyingGlassIcon, ArchiveBoxIcon, LightBulbIcon, ArchiveBoxArrowDownIcon, CollectionIcon, SearchIcon } from '@heroicons/react/20/solid'
 import HeaderItem from './HeaderItem'
 
-function header() {
+function Header() {
     return (
         <header className='flex flex-col sm:flex-row m-5 justify-between items-center h-auto'>
             <div className='flex flex-grow justify-evenly max-w-2xl'>
@@ -30,4 +30,4 @@ function header() {
     )
 }
 
-export default header
+export default Header
